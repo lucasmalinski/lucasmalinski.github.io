@@ -82,7 +82,7 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 ```Linux (Debian/Fedora)```, ```Android platform-tools```
 
 **DevOps & Cloud:**  
-```GitHub Actions```, ```Microsoft Azure Fundamentals```, ```git```, ```docker-compose```
+```GitHub Actions```, ```Microsoft Azure Fundamentals```, ```GCP (Google Cloud Platform)```, ```git```, ```docker-compose```
 
 **Dados & Análise:**  
 ```pandas```, ```matplotlib```, ```BeautifulSoup```, ```Power BI```, ```Google Places API```
