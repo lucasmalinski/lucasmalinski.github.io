@@ -5,7 +5,7 @@ title: "Currículo - Lucas Malinski"
 
 # Lucas P. Malinski
 
-**Brasília, DF — Aberto a oportunidades remotas**  
+**Brasília, DF — Infraestrutura para Home Office**  
 📧 mailpatriota@gmail.com | 📞 (61) 98119-0719  
 [GitHub](https://github.com/lucasmalinski) | [LinkedIn](https://linkedin.com/in/lucaspatriota)
 
@@ -13,9 +13,9 @@ title: "Currículo - Lucas Malinski"
 
 ## 📝 Resumo Profissional
 
-Profissional proativo com background técnico em infraestrutura, dados e automação. Possuo a habilidade de rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
-'''
-> **Migrando de carreira, busco minha primeira oportunidade em dados, TI, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação.**
+Proativo, com background técnico em infraestrutura, dados e automação. Acostumado a rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
+
+> **Migrando de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação.**
 
 ---
 
@@ -62,7 +62,7 @@ Profissional proativo com background técnico em infraestrutura, dados e automa�
 
 ### 🚀 Infraestrutura Doméstica + Ambientes de Desenvolvimento
 
-- Configuração do ```code-server``` para desenvolvimento remoto.  
+- Configuração de ```code-server``` para desenvolvimento remoto.  
 - Home server com Debian, ```PROXMOX``` e containers isolados para testes.  
 - Experimentos com flashing, recovery e rooting de dispositivos ```Android```.
 
@@ -79,16 +79,16 @@ Profissional proativo com background técnico em infraestrutura, dados e automa�
 ## 💻 Tech Stack
 
 **Sistemas & Infraestrutura:**  
-```Linux (Debian/Fedora), Docker, Android platform-tools```
+```Linux (Debian/Fedora)```, ```Android platform-tools```
 
 **DevOps & Cloud:**  
-GitHub Actions, Microsoft Azure Fundamentals
+```GitHub Actions```, ```Microsoft Azure Fundamentals```, ```git```, ```docker-compose```
 
 **Dados & Análise:**  
-Python (pandas, matplotlib, BeautifulSoup), git, SQL, Power BI, Google Places API
+```Python (pandas, matplotlib, BeautifulSoup)```, ```SQL```, ```Power BI```, ```Google Places API```
 
 **Familiaridade adicional:**  
-RStudio
+```RStudio```
 
 ---
 
