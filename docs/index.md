@@ -15,7 +15,7 @@ title: "Currículo - Lucas Malinski"
 
 Proativo, com background técnico em infraestrutura, dados e automação. Acostumado a rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
 
-> **Migrando de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação.**
+> **Migrando de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação. Entusiasta de open source, e construtor de home server's nas horas vagas.**
 
 ---
 
