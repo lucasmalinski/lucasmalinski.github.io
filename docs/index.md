@@ -88,7 +88,7 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 ```pandas```, ```matplotlib```, ```BeautifulSoup```, ```Power BI```, ```Google Places API```
 
 **Languages:**  
-```Python```, ```SQL```, ```C```, ```RStudio``` 
+```Python```, ```SQL```, ```C```, ```R``` 
 
 ---
 
