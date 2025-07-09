@@ -7,7 +7,7 @@ title: "Currículo - Lucas Malinski"
 
 **Brasília, DF — Infraestrutura para Home Office**  
 📧 mailpatriota@gmail.com | 📞 (61) 98119-0719  
-[GitHub](https://github.com/lucasmalinski) | [LinkedIn](https://linkedin.com/in/lucaspatriota)
+[Website](https://lucasmalinski.me) [GitHub](https://github.com/lucasmalinski) | [LinkedIn](https://linkedin.com/in/lucaspatriota)
 
 ---
 
