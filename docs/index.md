@@ -85,10 +85,10 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 ```GitHub Actions```, ```Microsoft Azure Fundamentals```, ```git```, ```docker-compose```
 
 **Dados & Análise:**  
-```Python (pandas, matplotlib, BeautifulSoup)```, ```SQL```, ```Power BI```, ```Google Places API```
+```pandas```, ```matplotlib```, ```BeautifulSoup```, ```Power BI```, ```Google Places API```
 
-**Familiaridade adicional:**  
-```RStudio```
+**Languages:**  
+```Python```, ```SQL```, ```C```, ```RStudio``` 
 
 ---
 
