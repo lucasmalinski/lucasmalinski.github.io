@@ -7,7 +7,7 @@ title: "Currículo - Lucas Malinski"
 
 **Brasília, DF — Infraestrutura para Home Office**  
 📧 mailpatriota@gmail.com | 📞 (61) 98119-0719  
-[Website](https://lucasmalinski.me) [GitHub](https://github.com/lucasmalinski) | [LinkedIn](https://linkedin.com/in/lucaspatriota)
+[Website](https://lucasmalinski.me) | [GitHub](https://github.com/lucasmalinski) | [LinkedIn](https://linkedin.com/in/lucaspatriota)
 
 ---
 
@@ -15,7 +15,8 @@ title: "Currículo - Lucas Malinski"
 
 Proativo, com background técnico em infraestrutura, dados e automação. Acostumado a rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
 
-> **Migrado de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação. Entusiasta de open source, e admin de home server nas horas vagas.**
+> **Migrado de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação. 
+> Entusiasta de open source, e admin de home server nas horas vagas.**
 
 ---
 
