@@ -15,7 +15,7 @@ title: "Currículo - Lucas Malinski"
 
 Proativo, com background técnico em infraestrutura, dados e automação. Acostumado a rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
 
-> **Migrando de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação. Entusiasta de open source, e construtor de home server's nas horas vagas.**
+> **Migrado de carreira, busco  oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação. Entusiasta de open source, e admin de home server nas horas vagas.**
 
 ---
 
@@ -62,9 +62,14 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 
 ### 🚀 Infraestrutura Doméstica + Ambientes de Desenvolvimento
 
-- Configuração de ```code-server``` para desenvolvimento remoto.  
-- Home server com Debian, ```PROXMOX``` e containers isolados para testes.  
-- Experimentos com flashing, recovery e rooting de dispositivos ```Android```.
+- Configuração de code-server para desenvolvimento remoto via navegador.
+- Servidor doméstico com Debian e Proxmox, utilizando containers isolados para testes.
+
+- Automação de ambientes de desenvolvimento e serviços com Docker Compose e práticas de Infrastructure as Code (IaC).
+
+- Automação de CI/CD e fluxos de deploy usando GitHub Actions.
+
+- Projetos experimentais envolvendo flashing, recovery e rooting de dispositivos Android.
 
 ---
 
@@ -72,14 +77,14 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 
 - Script em ```Python``` para scraping, parsing (```RegEx```) e análise de partidas do Brasileirão 2023 usando ```BeautifulSoup``` e ```pandas```.  
 - Métricas extraídas: vitórias, derrotas, saldo de gols e aproveitamento.  
-- Exportação para o ```Looker Studio``` para visualização de desempenho.
+- Painel em  ```Looker Studio``` para visualização métricas de desempenho.
 
 ---
 
 ## 💻 Tech Stack
 
 **Sistemas & Infraestrutura:**  
-```Linux (Debian/Fedora)```, ```Android platform-tools```
+```Linux```,
 
 **DevOps & Cloud:**  
 ```GitHub Actions```, ```Microsoft Azure Fundamentals```, ```GCP (Google Cloud Platform)```, ```git```, ```docker-compose```
@@ -87,8 +92,8 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 **Dados & Análise:**  
 ```pandas```, ```matplotlib```, ```BeautifulSoup```, ```Power BI```, ```Google Places API```
 
-**Languages:**  
-```Python```, ```SQL```, ```C```, ```R``` 
+**Linguagens & Frameworks:**  
+```Python```, ```SQL```, ```C```, ```R```, ```Flask```
 
 ---
 
@@ -98,10 +103,10 @@ Proativo, com background técnico em infraestrutura, dados e automação. Acostu
 Centro Universitário de Brasília (UniCEUB) — *2023 – 2027 (em andamento)*
 
 - **Graduação em Arquitetura e Urbanismo**  
-Universidade de Brasília (UnB) / Universidade Federal de Santa Catarina (UFSC) — *2022 – 2026 (transferência)*
+Universidade de Brasília (UnB) / Universidade Federal de Santa Catarina (UFSC) — *2018 – 2024 (migração)*
 
 - **Bacharelado em Direito**  
-Universidade Federal de Santa Catarina (UFSC) — *2017 – 2018 (migração de área)*
+Universidade Federal de Santa Catarina (UFSC) — *2017 – 2018 (migração)*
 
 ---
 
@@ -110,4 +115,3 @@ Universidade Federal de Santa Catarina (UFSC) — *2017 – 2018 (migração de 
 - **Inglês:** Fluente (vivência nos EUA, cidadania canadense)
 
 ---
-

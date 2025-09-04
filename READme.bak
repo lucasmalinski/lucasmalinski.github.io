@@ -8,9 +8,9 @@
 
 ## 📝 Resumo Profissional
 
-Profissional proativo com background técnico em infraestrutura, dados e automação. Possuo a habilidade de rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
+Proativo, com interesse em infraestrutura, dados e automação. Possuo a habilidade de rapidamente adquirir novos conhecimentos para resolver problemas complexos e otimizar processos.
 '''
-> **Migrando de carreira, busco minha primeira oportunidade em dados, TI, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades e me desenvolver ao longo da graduação.**
+> **Migrado de área, busco minha primeira oportunidade em dados, infraestrutura ou áreas correlatas, onde possa aplicar minhas habilidades, iniciar a carreira e me desenvolver ao longo da graduação**
 
 ---
 
@@ -19,11 +19,11 @@ Profissional proativo com background técnico em infraestrutura, dados e automa�
 ### Estagiário – Estúdio Mosaico  
 *Brasília, DF · Set 2024 – Mai 2025*
 
-- Criação de pipeline de dados com ```pandas``` e  ```Google Places API``` para gerar lista segmentada de escritórios de arquitetura em capitais brasileiras, com filtros por volume de avaliações e geolocalização.  
+- Criação de pipeline de dados com ```pandas``` e  ```Google Places API``` para gerar lista dinâmica e segmentada de escritórios de arquitetura em capitais brasileiras, com filtros por volume de avaliações e geolocalização.  
    
    - **Resultado**: Lista rotativa de 150 escritórios relevantes, coletados e normalizados automaticamente para o padrão dos Correios.  
    
-- Migração e organização de dados e fluxos da empresa do Excel para o Notion, automatizando processos internos de gestão e inventário.
+- Migração e organização de dados e fluxos da empresa do Excel para o Notion, automatizando processos internos de gestão de projetos de arquitetura e inventário de estoque. 
 
 ---
 
@@ -41,7 +41,7 @@ Profissional proativo com background técnico em infraestrutura, dados e automa�
 *Agosto 2022 – Outubro 2022*
 
 - Coleta de dados demográficos e socioeconômicos em campo.  
-- Garantia de precisão e integridade dos dados conforme protocolos do IBGE.
+- Confiabilidade e integridade de dados conforme protocolos do IBGE.
 
 ---
 
@@ -77,10 +77,10 @@ Profissional proativo com background técnico em infraestrutura, dados e automa�
 ```Linux (Debian/Fedora), Docker, Android platform-tools```
 
 **DevOps & Cloud:**  
-GitHub Actions, Microsoft Azure Fundamentals
+GitHub Actions, Microsoft Azure Fundamentals, Docker Compose
 
 **Dados & Análise:**  
-Python (pandas, matplotlib, BeautifulSoup), git, SQL, Power BI, Google Places API
+Python (pandas, matplotlib, BeautifulSoup), git, SQL, Power BI
 
 **Familiaridade adicional:**  
 RStudio
