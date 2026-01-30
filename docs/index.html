@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucas P. Malinski — Resume</title>
+
+  <style>
+    :root {
+      --text-main: #111827;
+      --text-muted: #4b5563;
+      --accent: #065f46;
+      --bg-soft: #f9fafb;
+      --border-light: #e5e7eb;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 10.75pt;
+      line-height: 1.55;
+      color: var(--text-main);
+      max-width: 780px;
+      margin: 60px auto;
+      padding: 0 36px;
+      background: white;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Language toggle */
+    .lang-toggle {
+      text-align: right;
+      margin-bottom: 20px;
+      font-size: 10pt;
+    }
+
+    .lang-toggle a {
+      padding: 6px 12px;
+      border: 1px solid var(--border-light);
+      border-radius: 4px;
+      margin-left: 8px;
+    }
+
+    /* ===== HEADER ===== */
+
+    header {
+      margin-bottom: 32px;
+    }
+
+    h1 {
+      font-size: 24pt;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .subtitle-main {
+      font-size: 11pt;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .contact {
+      margin-top: 12px;
+      font-size: 10pt;
+      color: var(--text-muted);
+    }
+
+    .contact a {
+      color: inherit;
+    }
+
+    /* ===== SECTIONS ===== */
+
+    section {
+      margin-top: 28px;
+    }
+
+    h2 {
+      font-size: 11pt;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      margin: 0 0 16px 0;
+      position: relative;
+    }
+
+    h2::before {
+      content: "";
+      display: block;
+      width: 32px;
+      height: 2px;
+      background: var(--accent);
+      margin-bottom: 8px;
+    }
+
+    /* ===== ENTRIES ===== */
+
+    .entry {
+      margin-bottom: 12px;
+      padding-bottom: 12px;
+      border-bottom: 1px dashed var(--border-light);
+    }
+
+    .entry:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .entry-header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    h3 {
+      font-size: 11.5pt;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .meta {
+      font-size: 9.5pt;
+      color: var(--text-muted);
+      white-space: nowrap;
+    }
+
+    .subrow {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10pt;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .repo {
+      font-size: 9pt;
+      color: #6b7280;
+      margin-top: 6px;
+      margin-left: 12px;
+    }
+
+    ul {
+      margin: 8px 0 0 0;
+      padding-left: 18px;
+      margin-left: 12px;
+      max-width: 90%;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    /* ===== SKILLS ===== */
+
+    .skills {
+      font-size: 10.25pt;
+      line-height: 1.6;
+    }
+
+    .skills div {
+      margin-bottom: 6px;
+    }
+
+    /* ===== PRINT ===== */
+
+    @media print {
+      body {
+        margin: 0;
+        padding: 24px;
+      }
+
+      .lang-toggle {
+        display: none;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      h2::before {
+        background: black;
+      }
+      
+      .entry {
+        border-bottom-color: #ccc;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="lang-toggle">
+  <a href="pt-br.html">🇧🇷 Português</a>
+</div>
+
+<header>
+  <h1>Lucas P. Malinski</h1>
+  <div class="subtitle-main">Junior Data Engineer</div>
+
+  <div class="contact">
+    Brasília, DF · +55 (61) 98119-0719 ·
+    <a href="mailto:findmalinski@gmail.com">findmalinski@gmail.com</a><br/>
+    <a href="https://www.linkedin.com/in/lucasmalinski" target="_blank">linkedin.com/in/lucasmalinski</a> ·
+    <a href="https://github.com/lucasmalinski" target="_blank">github.com/lucasmalinski</a>
+  </div>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+  <p>
+    Junior Data Engineer with experience building scalable ETL/ELT pipelines in Python and preparing analytical datasets for BI and decision-making. Strong background in data modeling, normalization, and performance-oriented data structures. Hands-on experience with Linux-based environments and automated data pipelines. Fluent in English; Brazil/Canada citizen. Currently pursuing a B.S. in Data Science & Machine Learning.
+  </p>
+</section>
+
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div><strong>Data & Analytics —</strong> Pandas, SQL (Postgres, Oracle PL/SQL), Power BI</div>
+    <div><strong>Languages —</strong> Python, Bash, C, R, Flask</div>
+    <div><strong>Infrastructure & Orchestration —</strong> Linux (Debian/Ubuntu), Docker / Compose, Airflow, Meltano, GitHub Actions</div>
+  </div>
+</section>
+
+<section>
+  <h2>Technical Projects & Portfolio</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Transactional Data Pipeline (Tech Challenge)</h3>
+      <div class="meta">Set 2025 · Bash, Airflow, Meltano</div>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/banvic_indicium" target="_blank">github.com/lucasmalinski/banvic_indicium</a></div>
+    <ul>
+      <li>Designed a scalable ELT architecture simulating a banking environment with isolated Docker networks to secure transactional source DBs.</li>
+      <li>Implemented Docker-out-of-Docker where Airflow manages ephemeral Sibling Containers (Meltano) via host socket.</li>
+      <li>Developed Bash scripts for automated environment provisioning and service initialization.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>CVM Funds Monitor (CS50 Final Project)</h3>
+      <div class="meta">Dec 2025 · Python, Flask, Pandas</div>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/cvm_fundos2" target="_blank">github.com/lucasmalinski/cvm_fundos2</a></div>
+    <ul>
+      <li>Built an OOP-based Flask application (CVMExtractor) to process high-volume CVM financial data (ZIP/CSV) in-memory using <code>io.BytesIO</code>.</li>
+      <li>Implemented dynamic Pandas logic to parse complex datasets (Swaps, Stocks) based on user requests.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Crypto News ETL Pipeline</h3>
+      <div class="meta">Jul 2025 · Python, GitHub Actions</div>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/financial-sentiment-pipeline" target="_blank">github.com/lucasmalinski/financial-sentiment-pipeline</a></div>
+    <ul>
+      <li>Developed a Python script for scraping, transformation (deduplication, timestamp parsing), and file management for sentiment analysis.</li>
+      <li>Architected a GitHub Actions workflow to schedule cron jobs and auto-commit data for persistence (CI/CD).</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Homelab & Cloud Engineering (On-Premise)</h3>
+      <div class="meta">Feb 2025 · Linux, Proxmox, Docker, Bash</div>
+    </div>
+    <ul>
+      <li>Managed a Debian environment for self-hosted services, handling systemd, permissions, and virtualization via Proxmox LXC containers.</li>
+      <li>Wrote Bash scripts for boot order dependencies and self-healing network checks.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Professional Experience</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Data Intelligence Intern</h3>
+      <div class="meta">Dec 2023 – Mar 2024</div>
+    </div>
+    <div class="subrow">
+      <span>CAU/BR - Brazilian Council of Architecture and Urbanism</span>
+      <span>Brasília, DF, Brazil</span>
+    </div>
+    <div class="repo"><a href="https://caubr.gov.br/observatorioathis/painel-de-dados/" target="_blank">caubr.gov.br/observatorioathis/painel-de-dados/</a></div>
+    <ul>
+      <li>Served as Technical Liaison between IT and the Presidency, translating technical constraints into business insights.</li>
+      <li>Modeled and transferred high-volume datasets (Excel/CSV) to BI tools, ensuring reporting integrity.</li>
+      <li>Integrated ArcGIS into Power BI, mapping R$ 3M+ in investments for the ATHIS Portal.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Education</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>B.S. Data Science and Machine Learning</h3>
+      <div class="meta">Exp. 2028</div>
+    </div>
+    <div class="subrow">
+      <span>UniCEUB - University Center of Brasília </span>
+    </div>
+    <ul>
+      <li>Previous studies in Architecture (Federal University of Brasília - UnB).</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>CS50: Introduction to Computer Science</h3>
+      <div class="meta">Dec 2025</div>
+    </div>
+    <div class="subrow">
+      <span>Harvard University</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
