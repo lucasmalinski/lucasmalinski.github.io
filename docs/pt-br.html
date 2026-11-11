@@ -223,8 +223,8 @@
 </div>
 
 <header>
-  <h1>Lucas Patriota Malinski</h1>
-  <div class="subtitle-main"> Engenheiro de Dados Jr. | BI & Modelagem Analítica </div>
+  <h1>Lucas P. Malinski</h1>
+  <div class="subtitle-main">Engenheiro de Dados Júnior</div>
 
   <div class="contact">
     Brasília, DF · +55 (61) 99269-4023 ·
@@ -237,84 +237,22 @@
 <section>
   <h2>Resumo Profissional</h2>
   <p>
-    Engenheiro de Dados Júnior com foco em modelagem de dados e bases analíticas escaláveis para BI. Experiência em ETL/ELT em Python, <strong>boas práticas</strong> de modelagem e normalização e preparação de dados orientada à performance. Atuação em ambientes Linux e pipelines de dados automatizados.
+    Estagiário de engenharia de dados em um órgão federal brasileiro, construindo modelos dimensionais no BigQuery e conduzindo uma migração em produção de mais de 200 milhões de linhas. Constrói pipelines de dados públicos em GCP e Azure e pipelines de RAG para agentes de LLM. Experiência prática com ambientes Linux e pipelines de dados automatizados. Inglês fluente; cidadão brasileiro e canadense. Cursando bacharelado em Ciência de Dados e Machine Learning.
   </p>
 </section>
 
 <section>
   <h2>Habilidades Técnicas</h2>
   <div class="skills">
-    <div><strong>Dados e Analytics —</strong> Pandas, MongoDB, SQL (Postgres, Oracle PL/SQL), Power BI, RLS, Google Sheets, Excel </div>
-    <div><strong>Linguagens e Frameworks —</strong> Python, Bash, C, R, Flask</div>
-    <div><strong>Infraestrutura e Orquestração —</strong> Linux (Debian/Ubuntu), Docker & Docker-Compose, Airflow, Meltano, GitHub Actions</div>
-    <div><strong>Cloud —</strong> Microsoft Azure </div>
-    <div><strong>ML e Recuperação —</strong> BigQuery, LangGraph, RAG/LLM (BM25, modelos Sber)</div>
-  </div>
-</section>
-
-<section>
-  <h2>Projetos Técnicos e Portfólio</h2>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Projeto de Modelagem de Dados e BI</h3>
-      <div class="meta">Abr 2026 · Power BI, Power Query, Modelagem Dimensional</div>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/modelagem_dados_evg" target="_blank">github.com/lucasmalinski/modelagem_dados_evg</a></div>
-    <ul>
-      <li>Desenvolvi um pipeline de ETL com Power Query para ingerir, limpar e transformar dados brutos a partir de arquivos CSV.</li>
-      <li>Projetei e implementei a modelagem física em Star Schema, construindo tabelas fato e dimensões com chaves substitutas para garantir a integridade referencial.</li>
-      <li>Criei tabelas de calendário dinâmicas para suportar análises temporais no modelo de dados.</li>
-      <li>Implementei Visuais de análise de dados orientados a KPI's</li>
-    </ul>
-  </div>
-  
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Pipeline de Dados Transacionais (Tech Challenge)</h3>
-      <div class="meta">Set 2025 · Bash, Airflow, Meltano</div>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/banvic_indicium" target="_blank">github.com/lucasmalinski/banvic_indicium</a></div>
-    <ul>
-      <li>Projetou arquitetura ELT escalável simulando ambiente bancário, com redes Docker isoladas para garantir segurança da base transacional.</li>
-      <li>Implementou padrão <em>Docker-out-of-Docker</em> onde o Airflow orquestra Sibling Containers (Meltano) efêmeros via socket do host.</li>
-      <li>Desenvolveu scripts Bash robustos para provisionamento automatizado de ambiente e inicialização de serviços.</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Monitor de Fundos da CVM (Projeto Final CS50)</h3>
-      <div class="meta">Dez 2025 · Python, Flask, Pandas</div>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/cvm_fundos2" target="_blank">github.com/lucasmalinski/cvm_fundos2</a></div>
-    <ul>
-      <li>Desenvolveu aplicação Flask orientada a objetos (OOP) para processar ZIPs/CSVs de dados financeiros da CVM (Comissão de Valores Mobiliários)  <em>in-memory</em> via <code>io.BytesIO</code>.</li>
-      <li>Implementou lógica dinâmica com Pandas para tratamento de datasets complexos (Swap, Ações) sob demanda.</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Pipeline ETL de Notícias Cripto</h3>
-      <div class="meta">Jul 2025 · Python, GitHub Actions</div>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/financial-sentiment-pipeline" target="_blank">github.com/lucasmalinski/financial-sentiment-pipeline</a></div>
-    <ul>
-      <li>Engenharia de script Python para extração (scraping), transformação (deduplicação, parsing de timestamp) e gestão de arquivos para análise de sentimento.</li>
-      <li>Implementou esteira de CI/CD no GitHub Actions para agendamento via cron e persistência de dados com auto-commit.</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Homelab e Engenharia de Cloud (On-Premise)</h3>
-      <div class="meta">Feb 2025 · Linux, Proxmox, Docker, Bash</div>
-    </div>
-    <ul>
-      <li>Administração de ambiente Debian para serviços <em>self-hosted</em>, gerenciando systemd, permissões e virtualização via Proxmox LXC.</li>
-      <li>Automação via scripts Bash para orquestração de boot e monitoramento de rede com auto-recuperação.</li>
-    </ul>
+    <div><strong>Linguagens —</strong> Python, SQL (Postgres, Oracle PL/SQL), Bash, C, R</div>
+    <div><strong>Cloud —</strong> GCP (BigQuery, Cloud Storage), Azure (Blob Storage, VMs)</div>
+    <div><strong>BigQuery —</strong> particionamento, clusterização, time travel, controle de custos (dry runs)</div>
+    <div><strong>Modelagem e qualidade de dados —</strong> star schema, camadas medallion, data contracts em YAML, validation gates</div>
+    <div><strong>Orquestração e infraestrutura —</strong> Airflow, Docker / Compose, GitHub Actions, Linux (Debian/Ubuntu)</div>
+    <div><strong>Dados e BI —</strong> Pandas, Parquet, MongoDB, Power BI (RLS)</div>
+    <div><strong>IA e recuperação —</strong> LangGraph, pipelines de RAG, recuperação híbrida (BM25 + embeddings SBERT)</div>
+    <div><strong>Familiaridade com —</strong> Spark, Kafka, Delta Lake, MinIO (S3), Cassandra, Neo4j, Redis, RabbitMQ, Metabase, Proxmox/LXC</div>
+    <div><strong>Aprendendo —</strong> dbt</div>
   </div>
 </section>
 
@@ -330,9 +268,9 @@
       <span>Brasília, DF · Híbrido</span>
     </div>
     <ul>
-      <li>Atuação na gestão e desenvolvimento de soluções de dados e inovação aplicadas à administração pública.</li>
-      <li>Suporte em pipelines de dados, análises e dashboards internos para aperfeiçoar a tomada de decisão.</li>
-      <li>Desenvolveu agentes RAG/LLM e pipelines de recuperação usando LangGraph, BM25 e modelos Sber; integrou fontes de conhecimento no BigQuery.</li>
+      <li>Conduziu uma migração de chaves hash no data warehouse de pesquisa do órgão: inventariou milhares de tabelas do BigQuery em dezenas de datasets e migrou mais de 200 milhões de linhas com scripts idempotentes orientados por data contracts, com validation gates antes da escrita; 0 divergências, com rollback via time travel como rede de segurança.</li>
+      <li>Construiu a silver layer de um dataset de um concurso público nacional: um modelo dimensional com tabela fato particionada e clusterizada de mais de 10 milhões de linhas, cargas idempotentes, proteções contra schema drift e um plano de qualidade de dados em nível de coluna.</li>
+      <li>Desenvolveu agentes RAG/LLM e pipelines de recuperação com LangGraph, BM25 e embeddings SBERT; integrou fontes de conhecimento no BigQuery.</li>
     </ul>
   </div>
 
@@ -342,14 +280,73 @@
       <div class="meta">Dez 2023 – Mar 2024</div>
     </div>
     <div class="subrow">
-      <span>CAU/BR - Conselho de Arquitetura e Urbanismo do Brasil - Assessoria da Presidência</span>
+      <span>CAU/BR - Conselho de Arquitetura e Urbanismo do Brasil</span>
       <span>Brasília, DF</span>
     </div>
     <div class="repo"><a href="https://caubr.gov.br/observatorioathis/painel-de-dados/" target="_blank">caubr.gov.br/observatorioathis/painel-de-dados/</a></div>
     <ul>
-      <li>Atuou como elo entre TI e Presidência, traduzindo requisitos técnicos em soluções de negócio.</li>
-      <li>Executou modelagem de dados e processos ETL de grandes volumes (Excel/CSV) para ferramentas de BI.</li>
-      <li>Integrou dados geoespaciais (ArcGIS) ao Power BI, mapeando mais de R$ 3 Milhões em investimentos para o Portal ATHIS.</li>
+      <li>Modelou e transferiu grandes volumes de dados (Excel/CSV) para ferramentas de BI, garantindo a integridade dos relatórios.</li>
+      <li>Integrou o ArcGIS ao Power BI, mapeando mais de R$ 3 milhões em investimentos para o Portal ATHIS.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Projetos Técnicos e Portfólio</h2>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Análise Hospitalar SUS-DF</h3>
+      <div class="meta">Jun 2026</div>
+    </div>
+    <div class="subrow">
+      <span>Python, GitHub Actions, Azure Blob, Power BI</span>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/analise-hospitalar-sus-df" target="_blank">github.com/lucasmalinski/analise-hospitalar-sus-df</a></div>
+    <ul>
+      <li>ETL idempotente em Python sobre a API pública da Saúde-DF (~985 mil linhas), orquestrado com GitHub Actions, armazenado em Parquet no Azure Blob, com dashboard em Power BI (projeto de disciplina em equipe, com escopo voltado ao Conselho de Saúde do DF).</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Ambiente de Laboratório de Big Data (disciplina)</h3>
+      <div class="meta">Out–Nov 2026</div>
+    </div>
+    <div class="subrow">
+      <span>Docker, Spark, Kafka, Airflow, Delta Lake, MinIO, NoSQL</span>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/ceub-bigdata" target="_blank">github.com/lucasmalinski/ceub-bigdata</a></div>
+    <ul>
+      <li>Configurou Spark, Kafka, Airflow, MinIO, Metabase, mensageria (RabbitMQ, Redis) e bancos NoSQL (MongoDB, Cassandra, Neo4j) em laboratórios baseados em Docker no Linux; estendeu a imagem do Spark com Delta Lake e fez benchmark de CSV, JSON, Parquet, Avro e ORC.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Pipeline ELT Banvic (desafio técnico da Indicium)</h3>
+      <div class="meta">Set 2025</div>
+    </div>
+    <div class="subrow">
+      <span>Airflow, Meltano (ingestão), Docker, PostgreSQL</span>
+    </div>
+    <div class="repo"><a href="https://github.com/lucasmalinski/banvic_indicium" target="_blank">github.com/lucasmalinski/banvic_indicium</a></div>
+    <ul>
+      <li>ELT para um banco simulado, com redes Docker isoladas protegendo os bancos de dados de origem; o Airflow orquestra containers Meltano efêmeros via Docker-out-of-Docker, carregando no PostgreSQL.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="entry-header">
+      <h3>Homelab Hybrid-Cloud e Plataforma de IA Self-Hosted</h3>
+      <div class="meta">2023–presente</div>
+    </div>
+    <div class="subrow">
+      <span>Debian, Azure VMs, Docker Compose, PostgreSQL, Tailscale, Cloudflare Zero Trust</span>
+    </div>
+    <ul>
+      <li>Projetou uma divisão hybrid-cloud: serviços críticos 24/7 em uma VM pequena no Azure, cargas intensivas em armazenamento e IA em casa, com uma VM de burst sob demanda no Azure para indexação de ML; monitoramento entre nós com alertas e backups offsite agendados.</li>
+      <li>Implementou acesso zero-trust sem portas abertas (malha Tailscale, Cloudflare Tunnels atrás de políticas do Access com controle por identidade) e um gateway LiteLLM roteando entre provedores de modelos, com um sandbox isolado para agentes.</li>
     </ul>
   </div>
 </section>
@@ -360,13 +357,13 @@
   <div class="entry">
     <div class="entry-header">
       <h3>Bacharelado em Ciência de Dados e Machine Learning</h3>
-      <div class="meta">Prev. 2028</div>
+      <div class="meta">2023 – Prev. 2028</div>
     </div>
     <div class="subrow">
       <span>UniCEUB</span>
     </div>
     <ul>
-      <li>Estudos anteriores em Arquitetura e Urbanismo (Universidade Federal de Santa Catarina - UFSC / Universidade de Brasília - UnB).</li>
+      <li>Estudos anteriores em Arquitetura (UFSC | UnB).</li>
     </ul>
   </div>
 
@@ -380,13 +377,6 @@
     </div>
     <div class="repo"><a href="https://certificates.cs50.io/6f4a1266-21b4-40ea-82c1-07f289dd16d2.pdf?size=letter" target="_blank">Ver Certificado</a></div>
   </div>
-</section>
-
-<section>
-  <h2>Diferenciais</h2>
-  <ul>
-    <li><strong>Idiomas:</strong> Inglês (Fluente, Cidadania Canadense)</li>
-  </ul>
 </section>
 
 </body>
