@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-CBPZHD5ZSP"></script>
@@ -7,378 +7,160 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-CBPZHD5ZSP');
   </script>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
   <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
-  <title>Lucas Malinski — Resume</title>
-
+  <title>Lucas Malinski</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@500;600&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --text-main: #111827;
-      --text-muted: #4b5563;
-      --accent: #065f46;
-      --bg-soft: #f9fafb;
-      --border-light: #e5e7eb;
+      --bg: #FAFAF9;
+      --ink: #111827;
+      --muted: #6B7280;
+      --hair: #E5E7EB;
+      --accent: #065F46;
+      --sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0C0F0E;
+      --ink: #F3F4F6;
+      --muted: #9CA3AF;
+      --hair: #232B27;
+      --accent: #34D399;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 10.75pt;
-      line-height: 1.55;
-      color: var(--text-main);
-      max-width: 780px;
-      margin: 60px auto;
-      padding: 0 36px;
-      background: white;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      padding: 28px 28px 40px;
     }
 
-    a {
-      color: var(--accent);
-      text-decoration: none;
+    .controls {
+      display: flex;
+      justify-content: flex-end;
+      gap: 16px;
     }
 
-    a:hover {
-      text-decoration: underline;
+    .ctrl {
+      background: none;
+      border: none;
+      padding: 0;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      cursor: pointer;
+      transition: color 0.15s ease;
     }
 
-    /* Top navigation */
-    .top-nav {
-      text-align: right;
-      margin-bottom: 20px;
-      font-size: 10pt;
-    }
+    .ctrl:hover { color: var(--ink); }
 
-    .top-nav a {
-      padding: 6px 12px;
-      border: 1px solid var(--border-light);
-      border-radius: 4px;
-      margin-left: 8px;
-      display: inline-block;
-      color: var(--text-main);
-    }
-
-    .top-nav a:hover {
-      background: var(--bg-soft);
-      text-decoration: none !important;
-    }
-
-    /* ===== HEADER ===== */
-
-    header {
-      margin-bottom: 32px;
+    main {
+      align-self: center;
+      justify-self: center;
+      width: 100%;
+      max-width: 520px;
+      padding-bottom: 6vh;
     }
 
     h1 {
-      font-size: 24pt;
-      font-weight: 700;
-      margin: 0;
-    }
-
-    .subtitle-main {
-      font-size: 11pt;
-      color: var(--text-muted);
-      margin-top: 4px;
-    }
-
-    .contact {
-      margin-top: 12px;
-      font-size: 10pt;
-      color: var(--text-muted);
-    }
-
-    .contact a {
-      color: inherit;
-    }
-
-    /* ===== SECTIONS ===== */
-
-    section {
-      margin-top: 28px;
-    }
-
-    h2 {
-      font-size: 11pt;
-      font-weight: 700;
-      letter-spacing: 1.2px;
-      text-transform: uppercase;
-      margin: 0 0 16px 0;
-      position: relative;
-    }
-
-    h2::before {
-      content: "";
-      display: block;
-      width: 32px;
-      height: 2px;
-      background: var(--accent);
-      margin-bottom: 8px;
-    }
-
-    /* ===== ENTRIES ===== */
-
-    .entry {
-      margin-bottom: 12px;
-      padding-bottom: 12px;
-      border-bottom: 1px dashed var(--border-light);
-    }
-
-    .entry:last-child {
-      border-bottom: none;
-      margin-bottom: 0;
-      padding-bottom: 0;
-    }
-
-    .entry-header {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 12px;
-      align-items: baseline;
-    }
-
-    h3 {
-      font-size: 11.5pt;
+      font-size: clamp(28px, 4.5vw, 36px);
       font-weight: 600;
-      margin: 0;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+      margin: 0 0 24px;
     }
 
-    .meta {
-      font-size: 9.5pt;
-      color: var(--text-muted);
-      white-space: nowrap;
-    }
-
-    .subrow {
+    .links {
       display: flex;
-      justify-content: space-between;
-      font-size: 10pt;
-      color: var(--text-muted);
-      margin-top: 2px;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      padding-top: 22px;
+      border-top: 1px solid var(--hair);
+      font-family: var(--mono);
+      font-size: 13px;
     }
 
-    .repo a{
-      font-size: 10pt;
-      color: #DC143C;
-      margin-top: 6px;
-      margin-left: 12px;
+    .links a {
+      color: var(--ink);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 2px;
+      transition: color 0.15s ease, border-color 0.15s ease;
     }
 
-    ul {
-      margin: 8px 0 0 0;
-      padding-left: 18px;
-      margin-left: 12px;
-      max-width: 90%;
-    }
-
-    li {
-      margin-bottom: 6px;
-    }
-
-    /* ===== SKILLS ===== */
-
-    .skills {
-      font-size: 10.25pt;
-      line-height: 1.6;
-    }
-
-    .skills div {
-      margin-bottom: 6px;
-    }
-
-    /* ===== PRINT ===== */
-
-    @media print {
-      body {
-        margin: 0;
-        padding: 24px;
-      }
-
-      .top-nav {
-        display: none;
-      }
-
-      a {
-        color: black;
-        text-decoration: none;
-      }
-
-      h2::before {
-        background: black;
-      }
-      
-      .entry {
-        border-bottom-color: #ccc;
-      }
+    .links a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
     }
   </style>
 </head>
-
 <body>
-
-<div class="top-nav">
-  <a href="https://www.linkedin.com/in/lucasmalinski" target="_blank">LinkedIn</a>
-  <a href="https://github.com/lucasmalinski" target="_blank">GitHub</a>
-  <a href="pt-br.html">🇧🇷 Português</a>
-</div>
-
-<header>
-  <h1>Lucas Malinski</h1>
-  <div class="subtitle-main">Junior Data Engineer</div>
-
-  <div class="contact">
-    Brasília, DF · <a href="mailto:mailpatriota@gmail.com">mailpatriota@gmail.com</a><br/>
-    <a href="https://www.linkedin.com/in/lucasmalinski" target="_blank">linkedin.com/in/lucasmalinski</a> ·
-    <a href="https://github.com/lucasmalinski" target="_blank">github.com/lucasmalinski</a>
-  </div>
-</header>
-
-<section>
-  <h2>Professional Summary</h2>
-  <p>
-    Data engineering intern at a Brazilian federal agency, building BigQuery dimensional models and running a production migration of 200M+ rows. Builds public-data pipelines on GCP and Azure and RAG pipelines for LLM agents. Hands-on experience with Linux-based environments and automated data pipelines. Fluent in English; Brazil/Canada citizen. Currently pursuing a B.S. in Data Science &amp; Machine Learning.
-  </p>
-</section>
-
-<section>
-  <h2>Technical Skills</h2>
-  <div class="skills">
-    <div><strong>Languages —</strong> Python, SQL (Postgres, Oracle PL/SQL), Bash, C, R</div>
-    <div><strong>Cloud —</strong> GCP (BigQuery, Cloud Storage), Azure (Blob Storage, VMs)</div>
-    <div><strong>BigQuery —</strong> partitioning, clustering, time travel, cost control (dry runs)</div>
-    <div><strong>Data modeling &amp; quality —</strong> star schema, medallion layers, YAML data contracts, validation gates</div>
-    <div><strong>Orchestration &amp; infra —</strong> Airflow, Docker / Compose, GitHub Actions, Linux (Debian/Ubuntu)</div>
-    <div><strong>Data &amp; BI —</strong> Pandas, Parquet, MongoDB, Power BI (RLS)</div>
-    <div><strong>AI &amp; retrieval —</strong> LangGraph, RAG pipelines, hybrid retrieval (BM25 + SBERT embeddings)</div>
-    <div><strong>Familiar with —</strong> Spark, Kafka, Delta Lake, MinIO (S3), Cassandra, Neo4j, Redis, RabbitMQ, Metabase, Proxmox/LXC</div>
-    <div><strong>Learning —</strong> dbt</div>
-  </div>
-</section>
-
-<section>
-  <h2>Professional Experience</h2>
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Data Science Intern — CGDados (ENAP)</h3>
-      <div class="meta">Jun 2026 – Present</div>
-    </div>
-    <div class="subrow">
-      <span>Coordenadoria-Geral de Ciência de Dados (CGdados) — ENAP</span>
-      <span>Brasília, DF · Hybrid</span>
-    </div>
-    <ul>
-      <li>Ran a hash-key migration across the agency's research warehouse: inventoried thousands of BigQuery tables in dozens of datasets and migrated over 200M rows using contract-driven, idempotent scripts with pre-write validation gates; 0 mismatches, with time-travel rollback as a safety net.</li>
-      <li>Built the silver layer for a national public-exam dataset: a dimensional model with a partitioned and clustered fact table of 10M+ rows, idempotent loads, schema-drift guards, and a column-level data quality plan.</li>
-      <li>Built RAG/LLM agents and retrieval pipelines using LangGraph, BM25, and SBERT embeddings; integrated knowledge sources in BigQuery.</li>
-    </ul>
+  <div class="controls">
+    <button class="ctrl" id="lang-btn" type="button">PT-BR</button>
+    <button class="ctrl" id="theme-btn" type="button">Dark</button>
   </div>
 
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Data Intelligence Intern</h3>
-      <div class="meta">Dec 2023 – Mar 2024</div>
-    </div>
-    <div class="subrow">
-      <span>CAU/BR - Brazilian Council of Architecture and Urbanism</span>
-      <span>Brasília, DF, Brazil</span>
-    </div>
-    <div class="repo"><a href="https://caubr.gov.br/observatorioathis/painel-de-dados/" target="_blank">caubr.gov.br/observatorioathis/painel-de-dados/</a></div>
-    <ul>
-      <li>Modeled and transferred high-volume datasets (Excel/CSV) to BI tools, ensuring reporting integrity.</li>
-      <li>Integrated ArcGIS into Power BI, mapping R$ 3M+ in investments for the ATHIS Portal.</li>
-    </ul>
-  </div>
-</section>
+  <main>
+    <h1>Lucas Malinski</h1>
+    <nav class="links" aria-label="Links">
+      <a id="cv-link" href="/cv/">resume</a>
+      <a href="https://github.com/lucasmalinski" target="_blank" rel="noopener">github</a>
+      <a href="https://www.linkedin.com/in/lucasmalinski" target="_blank" rel="noopener">linkedin</a>
+      <a href="mailto:contato@lucasmalinski.dev">contato@lucasmalinski.dev</a>
+    </nav>
+  </main>
 
-<section>
-  <h2>Technical Projects &amp; Portfolio</h2>
+  <script>
+    const COPY = {
+      en: { cvText: "resume", cvHref: "/cv/", langBtn: "PT-BR" },
+      pt: { cvText: "currículo", cvHref: "/cv/pt-br.html", langBtn: "EN" },
+    };
 
-  <div class="entry">
-    <div class="entry-header">
-      <h3>SUS-DF Hospital Analytics</h3>
-      <div class="meta">Jun 2026</div>
-    </div>
-    <div class="subrow">
-      <span>Python, GitHub Actions, Azure Blob, Power BI</span>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/analise-hospitalar-sus-df" target="_blank">github.com/lucasmalinski/analise-hospitalar-sus-df</a></div>
-    <ul>
-      <li>Idempotent Python ETL on the Saúde-DF public API (~985k rows), orchestrated with GitHub Actions, stored as Parquet in Azure Blob, with a Power BI dashboard (team course project, scoped for the DF Health Council).</li>
-    </ul>
-  </div>
+    const root = document.documentElement;
+    const themeBtn = document.getElementById("theme-btn");
+    const langBtn = document.getElementById("lang-btn");
+    const cvLink = document.getElementById("cv-link");
 
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Big Data Lab Environment (coursework)</h3>
-      <div class="meta">Oct–Nov 2026</div>
-    </div>
-    <div class="subrow">
-      <span>Docker, Spark, Kafka, Airflow, Delta Lake, MinIO, NoSQL</span>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/ceub-bigdata" target="_blank">github.com/lucasmalinski/ceub-bigdata</a></div>
-    <ul>
-      <li>Set up Spark, Kafka, Airflow, MinIO, Metabase, messaging (RabbitMQ, Redis) and NoSQL stores (MongoDB, Cassandra, Neo4j) in Docker-based labs on Linux; extended the Spark image with Delta Lake and benchmarked CSV, JSON, Parquet, Avro and ORC.</li>
-    </ul>
-  </div>
+    function applyTheme(t) {
+      root.setAttribute("data-theme", t);
+      localStorage.setItem("lm_theme", t);
+      themeBtn.textContent = t === "dark" ? "Light" : "Dark";
+    }
 
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Banvic ELT Pipeline (Indicium tech challenge)</h3>
-      <div class="meta">Sep 2025</div>
-    </div>
-    <div class="subrow">
-      <span>Airflow, Meltano (ingestion), Docker, PostgreSQL</span>
-    </div>
-    <div class="repo"><a href="https://github.com/lucasmalinski/banvic_indicium" target="_blank">github.com/lucasmalinski/banvic_indicium</a></div>
-    <ul>
-      <li>ELT for a simulated bank with isolated Docker networks protecting source databases; Airflow orchestrates ephemeral Meltano containers via Docker-out-of-Docker, loading into PostgreSQL.</li>
-    </ul>
-  </div>
+    function applyLang(l) {
+      const d = COPY[l] || COPY.en;
+      root.lang = l === "pt" ? "pt-BR" : "en";
+      localStorage.setItem("lm_lang", l);
+      cvLink.textContent = d.cvText;
+      cvLink.href = d.cvHref;
+      langBtn.textContent = d.langBtn;
+    }
 
-  <div class="entry">
-    <div class="entry-header">
-      <h3>Hybrid-Cloud Homelab &amp; Self-Hosted AI Platform</h3>
-      <div class="meta">2023–present</div>
-    </div>
-    <div class="subrow">
-      <span>Debian, Azure VMs, Docker Compose, PostgreSQL, Tailscale, Cloudflare Zero Trust</span>
-    </div>
-    <ul>
-      <li>Designed a hybrid-cloud split: 24/7 critical services on a small Azure VM, storage- and AI-heavy workloads at home, with an on-demand Azure burst VM for ML indexing; cross-node monitoring with alerts and scheduled offsite backups.</li>
-      <li>Built zero-trust access with no open ports (Tailscale mesh, Cloudflare Tunnels behind identity-gated Access policies) and a LiteLLM gateway routing across model providers, with an isolated agent sandbox.</li>
-    </ul>
-  </div>
-</section>
+    applyTheme(localStorage.getItem("lm_theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"));
+    const urlLang = new URLSearchParams(window.location.search).get("lang");
+    applyLang(urlLang === "pt" || urlLang === "en" ? urlLang : (localStorage.getItem("lm_lang") || "en"));
 
-<section>
-  <h2>Education</h2>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>B.S. Data Science and Machine Learning</h3>
-      <div class="meta">2023 – Exp. 2028</div>
-    </div>
-    <div class="subrow">
-      <span>UniCEUB</span>
-    </div>
-    <ul>
-      <li>Previous studies in Architecture (UFSC | UnB).</li>
-    </ul>
-  </div>
-
-  <div class="entry">
-    <div class="entry-header">
-      <h3>CS50: Introduction to Computer Science</h3>
-      <div class="meta">Dec 2025</div>
-    </div>
-    <div class="subrow">
-      <span>Harvard University</span>
-    </div>
-    <div class="repo"><a href="https://certificates.cs50.io/6f4a1266-21b4-40ea-82c1-07f289dd16d2.pdf?size=letter" target="_blank">View Certificate</a></div>
-  </div>
-</section>
-
+    themeBtn.addEventListener("click", () => applyTheme(root.getAttribute("data-theme") === "dark" ? "light" : "dark"));
+    langBtn.addEventListener("click", () => applyLang(root.lang === "pt-BR" ? "en" : "pt"));
+  </script>
 </body>
 </html>
